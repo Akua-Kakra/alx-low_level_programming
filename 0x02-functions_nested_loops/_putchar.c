@@ -1,6 +1,8 @@
 #include "main.h"
+#include <stdio.h>
+#include "putchar"
 /**
- * main - check the code
+ * main - print_alphabet
  *
  * Return: Always 0.
  */
