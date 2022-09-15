@@ -1,15 +1,11 @@
 #include "main.h"
-/**
- *  add - adds two integers and returns the result
- * @a: int to be added to b
- * @a: int to be added to b
- * Return: sum of a and b
+/*
+ * add - Add two integers
+ * @x: int type number
+ * @y: int type number
+ * Return: result of addition
  */
-int add(int a, int b)
+int add(int x, int y)
 {
-	int c;
-
-	c = a + b;
-
-	return (c);
+	return (x + y);
 }
