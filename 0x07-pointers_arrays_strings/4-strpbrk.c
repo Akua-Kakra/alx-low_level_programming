@@ -6,11 +6,10 @@
  * @accept: character we search for
  * Return: NULL if character is not found, return pointer
  */
+
 char *_strpbrk(char *s, char *accept)
 {
 	char *str = s;
-	int i;
-
 	int i;
 
 	do {
